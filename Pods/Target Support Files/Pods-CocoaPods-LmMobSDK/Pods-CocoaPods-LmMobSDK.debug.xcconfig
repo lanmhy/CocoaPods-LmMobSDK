@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/LmMobSDK/LmMobSDK/frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LmMobSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/LmMobSDK/LmMobSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LmMobSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"LmMobSDK" -l"c++" -l"sqlite3" -l"xml2" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AdColony" -framework "AdSupport" -framework "AudioToolbox" -framework "CFNetwork" -framework "Centrixlink" -framework "Chartboost" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "EventKit" -framework "GLKit" -framework "ImageIO" -framework "JavaScriptCore" -framework "MVSDK" -framework "MVSDKReward" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "UnityAds" -framework "VungleSDK" -framework "WatchConnectivity" -framework "iAd" -weak_framework "Foundation" -weak_framework "UIKit" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

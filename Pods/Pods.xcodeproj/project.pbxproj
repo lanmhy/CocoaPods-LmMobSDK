@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F3763B66169DDF990AFFB739C0248C /* Pods-CocoaPods-LmMobSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599456F4C8BF8155CD2585BE62C6E0A /* Pods-CocoaPods-LmMobSDK-dummy.m */; };
+		55C757612BBC2CB6C85834F7D0D7DBF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9012A012AAC997A6C9695A2B3FEAB307 /* Pods-CocoaPods-LmMobSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA62BC5DB6E827B8129F591076C926B9 /* Pods-CocoaPods-LmMobSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EBC374BAB9D2630B5D0693AD5ECDA7 /* MVMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVMediaView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVMediaView.h; sourceTree = "<group>"; };
+		127FA2D460C32C46F0905DF634760345 /* AdColonyNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyNativeAdView.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h; sourceTree = "<group>"; };
+		12B6117A9861A9C2833CD33AD86B02AA /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
+		13CB5CC826E3CEADA60A682ECA2B7EBB /* AdColonyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyOptions.h; sourceTree = "<group>"; };
+		1699E0A52868D3787B028EDF9997E25B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = LmMobSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
+		18A224C143BFF1FC3AAA5A59F580FCE8 /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
+		1942F2CB8E902454436DCC2B469DCB33 /* UADSJsonStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSJsonStorage.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSJsonStorage.h; sourceTree = "<group>"; };
+		207D7D5CB1D134CA2600533753361E4D /* UnityAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAds.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAds.h; sourceTree = "<group>"; };
+		2554F49E6E315236E202B5A7FBA48A74 /* AdColonyEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyEventTracker.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyEventTracker.h; sourceTree = "<group>"; };
+		3146FE2D7A8CCABC0AFD19CF9F45CE07 /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Centrixlink.framework; path = LmMobSDK/frameworks/Centrixlink.framework; sourceTree = "<group>"; };
+		3178C08ABD70F4E05B73CE8D74B0EC94 /* MVFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVFrame.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVFrame.h; sourceTree = "<group>"; };
+		37A97D57DDAFBBCE6F6524DC5C77083E /* LmMobSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LmMobSDK.h; path = LmMobSDK/LmMobSDK.h; sourceTree = "<group>"; };
+		390880918782B5990696CD6B8974A051 /* VungleSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDK.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDK.h; sourceTree = "<group>"; };
+		3D1E0446FF0951429049B2CBF29B8D8A /* MVNativeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeScrollView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeScrollView.h; sourceTree = "<group>"; };
+		458A8252F48A1CFED49EE93EBA8C3B2E /* UADSPurchasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPurchasing.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPurchasing.h; sourceTree = "<group>"; };
+		463238D0F72884E0A6F81D0BC7ED034C /* MVTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVTemplate.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVTemplate.h; sourceTree = "<group>"; };
+		4751CD1B366065A6E1F5363E3F14BED8 /* UADSMediationMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMediationMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMediationMetaData.h; sourceTree = "<group>"; };
+		491AF9C0C76C68F1F3F2FC2D38CECE2D /* Pods-CocoaPods-LmMobSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPods-LmMobSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AFB225B9792FB218945779BE5319CED /* Pods_CocoaPods_LmMobSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaPods_LmMobSDK.framework; path = "Pods-CocoaPods-LmMobSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4BC0B967657EA1B536263642FD11ED /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = LmMobSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
+		4E0E72EFDA01E49C8B3AECB57B0F9413 /* MVErrorCodeConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVErrorCodeConstant.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVErrorCodeConstant.h; sourceTree = "<group>"; };
+		5599456F4C8BF8155CD2585BE62C6E0A /* Pods-CocoaPods-LmMobSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPods-LmMobSDK-dummy.m"; sourceTree = "<group>"; };
+		59405CF9CAB67312419BBB8DC00B1197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66083285BC6FD125DA4885F55BCB954C /* Pods-CocoaPods-LmMobSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPods-LmMobSDK-frameworks.sh"; sourceTree = "<group>"; };
+		663041162699995A7AD9DCBE5C3BCDFA /* CentrixlinkAD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkAD.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkAD.h; sourceTree = "<group>"; };
+		6814534701B771D645C4E2E9A32D2A3B /* AdColonyUserMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyUserMetadata.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyUserMetadata.h; sourceTree = "<group>"; };
+		692FE06B36080F44741474BE8B1D39E8 /* UADSPlayerMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPlayerMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPlayerMetaData.h; sourceTree = "<group>"; };
+		6AC750BE2DB84B72130C65D307D29CBF /* AdColonyAppOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAppOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAppOptions.h; sourceTree = "<group>"; };
+		6C0CA321F8659EF26A9B65FF2D26348D /* AdColonyAdRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdRequestError.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdRequestError.h; sourceTree = "<group>"; };
+		6CCA09220919975DB23EE59BF168FAED /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = LmMobSDK/frameworks/VungleSDK.framework; sourceTree = "<group>"; };
+		705CBEB825830CB3D507A399729A533C /* AdColonyZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyZone.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyZone.h; sourceTree = "<group>"; };
+		787520505B3047C108A70829199FB500 /* Centrixlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Centrixlink.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/Centrixlink.h; sourceTree = "<group>"; };
+		7C774B70CB9EE9E77355E09948925B06 /* MVSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVSDK.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVSDK.h; sourceTree = "<group>"; };
+		824818623212BAFA70604D7DAEAFA26E /* Pods-CocoaPods-LmMobSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPods-LmMobSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		860A897C9F454DCA1A8E997132C11990 /* LmMobStartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobStartedIcon.png; path = LmMobSDK/Assets/LmMobStartedIcon.png; sourceTree = "<group>"; };
+		89F584041647411AC5022CA59BD84F7B /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdOptions.h; sourceTree = "<group>"; };
+		8CA37AA45E9972F5FF52763D86A45602 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColony.h; sourceTree = "<group>"; };
+		8DFF179C08E437363E1784DA5A28E4DA /* CentrixlinkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkProtocol.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkProtocol.h; sourceTree = "<group>"; };
+		938431EAF245BC9ACF9F5B6FEF5B1ED4 /* Pods-CocoaPods-LmMobSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPods-LmMobSDK.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A56B6D811F5175D1C3DAC09C98D33BBA /* Pods-CocoaPods-LmMobSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPods-LmMobSDK-resources.sh"; sourceTree = "<group>"; };
+		AB3A48D468EB1EC90FE0DD5666E29369 /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UnityAds.bundle; path = LmMobSDK/Assets/UnityAds.bundle; sourceTree = "<group>"; };
+		B371BDD5C1672CD2B71645A0835020C6 /* UnityAdsExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAdsExtended.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAdsExtended.h; sourceTree = "<group>"; };
+		B58CF29A44004D70644364D53398FD53 /* UADSInAppPurchaseMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSInAppPurchaseMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h; sourceTree = "<group>"; };
+		B62131457D1AB4BF3B5363CE01E97038 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = LmMobSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
+		B7294C9BA9AAF30E1C6E8172EB096931 /* LmMobUnstartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobUnstartedIcon.png; path = LmMobSDK/Assets/LmMobUnstartedIcon.png; sourceTree = "<group>"; };
+		B846B4F5102229B049C071C2E2E9F328 /* VungleSDKHeaderBidding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKHeaderBidding.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKHeaderBidding.h; sourceTree = "<group>"; };
+		B8F50E5AAB8F997EAD085AEAFEFE1ACA /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = LmMobSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
+		B9C6E8AE0FEF2E8422CE5DE8E7F7C358 /* MVRewardAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdManager.h; path = LmMobSDK/frameworks/MVSDKReward.framework/Versions/A/Headers/MVRewardAdManager.h; sourceTree = "<group>"; };
+		BA62BC5DB6E827B8129F591076C926B9 /* Pods-CocoaPods-LmMobSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPods-LmMobSDK-umbrella.h"; sourceTree = "<group>"; };
+		BD0B30FCB6A6D6296F22156EDB0B6658 /* Pods-CocoaPods-LmMobSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoaPods-LmMobSDK.modulemap"; sourceTree = "<group>"; };
+		BE1A16548EA5D9E35D6F89915B9CA2ED /* CentrixlinkConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkConst.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkConst.h; sourceTree = "<group>"; };
+		BE3723F13761E8516C6BBCFB424E7205 /* ChartboostDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChartboostDelegate.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/ChartboostDelegate.h; sourceTree = "<group>"; };
+		C2CD0ED1CA7FB266783FEE376B49DEC2 /* AdColonyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyTypes.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyTypes.h; sourceTree = "<group>"; };
+		D37BD16F194E3177EB4395272FF4D8B4 /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = LmMobSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
+		D50365B593FC3F361AF75D7DCD10C6BE /* MVUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVUserInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVUserInfo.h; sourceTree = "<group>"; };
+		D5797358016558236B9F28DCA7278AA2 /* MVNativeAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeAdManager.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeAdManager.h; sourceTree = "<group>"; };
+		D67EA8B6FB3FBBC8CA578CCE6163AF72 /* CLSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLog.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CLSLog.h; sourceTree = "<group>"; };
+		D741FD20CDD625AE34D95A93F4C393F8 /* libLmMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLmMobSDK.a; path = LmMobSDK/libLmMobSDK.a; sourceTree = "<group>"; };
+		E78784DECD08903537BE58D3C64F7A21 /* AdColonyInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyInterstitial.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyInterstitial.h; sourceTree = "<group>"; };
+		E7CD9156B5B55895795F702CDE19FE24 /* MVCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVCampaign.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVCampaign.h; sourceTree = "<group>"; };
+		E857AC4DE5C02EF98455392E9B68239D /* VungleSDKCreativeTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKCreativeTracking.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKCreativeTracking.h; sourceTree = "<group>"; };
+		E8C09530299AE0B7682837827502C6E0 /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
+		E9086810B655778FF58F30429EA6080B /* MVRewardAdInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVRewardAdInfo.h; sourceTree = "<group>"; };
+		F17BEE7D70ABEC56096FF389D43ADAFC /* UADSMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMetaData.h; sourceTree = "<group>"; };
+		F9000FB751493B0857D56769C430951A /* Pods-CocoaPods-LmMobSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPods-LmMobSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782DD2B692DEBE5042BA6443263AEA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C757612BBC2CB6C85834F7D0D7DBF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206C4D47C2D834E7367796D50369AF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62131457D1AB4BF3B5363CE01E97038 /* AdColony.framework */,
+				3146FE2D7A8CCABC0AFD19CF9F45CE07 /* Centrixlink.framework */,
+				4B4BC0B967657EA1B536263642FD11ED /* Chartboost.framework */,
+				D741FD20CDD625AE34D95A93F4C393F8 /* libLmMobSDK.a */,
+				D37BD16F194E3177EB4395272FF4D8B4 /* MVSDK.framework */,
+				B8F50E5AAB8F997EAD085AEAFEFE1ACA /* MVSDKReward.framework */,
+				1699E0A52868D3787B028EDF9997E25B /* UnityAds.framework */,
+				6CCA09220919975DB23EE59BF168FAED /* VungleSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26EB36D5035C442BEF7D6B463A0D8023 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3062F251682190F0460F990E0096D3BB /* Pods-CocoaPods-LmMobSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F4A4E8ABF3E34325E38D192751EF11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AFB225B9792FB218945779BE5319CED /* Pods_CocoaPods_LmMobSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3062F251682190F0460F990E0096D3BB /* Pods-CocoaPods-LmMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				59405CF9CAB67312419BBB8DC00B1197 /* Info.plist */,
+				BD0B30FCB6A6D6296F22156EDB0B6658 /* Pods-CocoaPods-LmMobSDK.modulemap */,
+				491AF9C0C76C68F1F3F2FC2D38CECE2D /* Pods-CocoaPods-LmMobSDK-acknowledgements.markdown */,
+				824818623212BAFA70604D7DAEAFA26E /* Pods-CocoaPods-LmMobSDK-acknowledgements.plist */,
+				5599456F4C8BF8155CD2585BE62C6E0A /* Pods-CocoaPods-LmMobSDK-dummy.m */,
+				66083285BC6FD125DA4885F55BCB954C /* Pods-CocoaPods-LmMobSDK-frameworks.sh */,
+				A56B6D811F5175D1C3DAC09C98D33BBA /* Pods-CocoaPods-LmMobSDK-resources.sh */,
+				BA62BC5DB6E827B8129F591076C926B9 /* Pods-CocoaPods-LmMobSDK-umbrella.h */,
+				F9000FB751493B0857D56769C430951A /* Pods-CocoaPods-LmMobSDK.debug.xcconfig */,
+				938431EAF245BC9ACF9F5B6FEF5B1ED4 /* Pods-CocoaPods-LmMobSDK.release.xcconfig */,
+			);
+			name = "Pods-CocoaPods-LmMobSDK";
+			path = "Target Support Files/Pods-CocoaPods-LmMobSDK";
+			sourceTree = "<group>";
+		};
+		392C416613A8169DB1A5227F5F9245E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				860A897C9F454DCA1A8E997132C11990 /* LmMobStartedIcon.png */,
+				B7294C9BA9AAF30E1C6E8172EB096931 /* LmMobUnstartedIcon.png */,
+				AB3A48D468EB1EC90FE0DD5666E29369 /* UnityAds.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		746C897645E29C464E4D4675F2454C35 /* LmMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8CA37AA45E9972F5FF52763D86A45602 /* AdColony.h */,
+				89F584041647411AC5022CA59BD84F7B /* AdColonyAdOptions.h */,
+				6C0CA321F8659EF26A9B65FF2D26348D /* AdColonyAdRequestError.h */,
+				6AC750BE2DB84B72130C65D307D29CBF /* AdColonyAppOptions.h */,
+				2554F49E6E315236E202B5A7FBA48A74 /* AdColonyEventTracker.h */,
+				E78784DECD08903537BE58D3C64F7A21 /* AdColonyInterstitial.h */,
+				127FA2D460C32C46F0905DF634760345 /* AdColonyNativeAdView.h */,
+				13CB5CC826E3CEADA60A682ECA2B7EBB /* AdColonyOptions.h */,
+				C2CD0ED1CA7FB266783FEE376B49DEC2 /* AdColonyTypes.h */,
+				6814534701B771D645C4E2E9A32D2A3B /* AdColonyUserMetadata.h */,
+				705CBEB825830CB3D507A399729A533C /* AdColonyZone.h */,
+				12B6117A9861A9C2833CD33AD86B02AA /* CBAnalytics.h */,
+				18A224C143BFF1FC3AAA5A59F580FCE8 /* CBInPlay.h */,
+				787520505B3047C108A70829199FB500 /* Centrixlink.h */,
+				663041162699995A7AD9DCBE5C3BCDFA /* CentrixlinkAD.h */,
+				BE1A16548EA5D9E35D6F89915B9CA2ED /* CentrixlinkConst.h */,
+				8DFF179C08E437363E1784DA5A28E4DA /* CentrixlinkProtocol.h */,
+				E8C09530299AE0B7682837827502C6E0 /* Chartboost.h */,
+				BE3723F13761E8516C6BBCFB424E7205 /* ChartboostDelegate.h */,
+				D67EA8B6FB3FBBC8CA578CCE6163AF72 /* CLSLog.h */,
+				37A97D57DDAFBBCE6F6524DC5C77083E /* LmMobSDK.h */,
+				E7CD9156B5B55895795F702CDE19FE24 /* MVCampaign.h */,
+				4E0E72EFDA01E49C8B3AECB57B0F9413 /* MVErrorCodeConstant.h */,
+				3178C08ABD70F4E05B73CE8D74B0EC94 /* MVFrame.h */,
+				04EBC374BAB9D2630B5D0693AD5ECDA7 /* MVMediaView.h */,
+				D5797358016558236B9F28DCA7278AA2 /* MVNativeAdManager.h */,
+				3D1E0446FF0951429049B2CBF29B8D8A /* MVNativeScrollView.h */,
+				E9086810B655778FF58F30429EA6080B /* MVRewardAdInfo.h */,
+				B9C6E8AE0FEF2E8422CE5DE8E7F7C358 /* MVRewardAdManager.h */,
+				7C774B70CB9EE9E77355E09948925B06 /* MVSDK.h */,
+				463238D0F72884E0A6F81D0BC7ED034C /* MVTemplate.h */,
+				D50365B593FC3F361AF75D7DCD10C6BE /* MVUserInfo.h */,
+				B58CF29A44004D70644364D53398FD53 /* UADSInAppPurchaseMetaData.h */,
+				1942F2CB8E902454436DCC2B469DCB33 /* UADSJsonStorage.h */,
+				4751CD1B366065A6E1F5363E3F14BED8 /* UADSMediationMetaData.h */,
+				F17BEE7D70ABEC56096FF389D43ADAFC /* UADSMetaData.h */,
+				692FE06B36080F44741474BE8B1D39E8 /* UADSPlayerMetaData.h */,
+				458A8252F48A1CFED49EE93EBA8C3B2E /* UADSPurchasing.h */,
+				207D7D5CB1D134CA2600533753361E4D /* UnityAds.h */,
+				B371BDD5C1672CD2B71645A0835020C6 /* UnityAdsExtended.h */,
+				390880918782B5990696CD6B8974A051 /* VungleSDK.h */,
+				E857AC4DE5C02EF98455392E9B68239D /* VungleSDKCreativeTracking.h */,
+				B846B4F5102229B049C071C2E2E9F328 /* VungleSDKHeaderBidding.h */,
+				206C4D47C2D834E7367796D50369AF28 /* Frameworks */,
+				392C416613A8169DB1A5227F5F9245E1 /* Resources */,
+			);
+			name = LmMobSDK;
+			path = LmMobSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9DC9D71F18F0EBCEC734CC6B9DF1028 /* Pods */,
+				2F4A4E8ABF3E34325E38D192751EF11F /* Products */,
+				26EB36D5035C442BEF7D6B463A0D8023 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9DC9D71F18F0EBCEC734CC6B9DF1028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746C897645E29C464E4D4675F2454C35 /* LmMobSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABB5377CE94CE2409F7F87E2F9EB64E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9012A012AAC997A6C9695A2B3FEAB307 /* Pods-CocoaPods-LmMobSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F88C2681989897D03F49A61D38B7278B /* Pods-CocoaPods-LmMobSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B25C32459AFBB2DE7A5EF1ECF6A8394 /* Build configuration list for PBXNativeTarget "Pods-CocoaPods-LmMobSDK" */;
+			buildPhases = (
+				AABF5FE31C6B2DD1234BA6F4DD2B7B39 /* Sources */,
+				782DD2B692DEBE5042BA6443263AEA01 /* Frameworks */,
+				ABB5377CE94CE2409F7F87E2F9EB64E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocoaPods-LmMobSDK";
+			productName = "Pods-CocoaPods-LmMobSDK";
+			productReference = 4AFB225B9792FB218945779BE5319CED /* Pods_CocoaPods_LmMobSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2F4A4E8ABF3E34325E38D192751EF11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88C2681989897D03F49A61D38B7278B /* Pods-CocoaPods-LmMobSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABF5FE31C6B2DD1234BA6F4DD2B7B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F3763B66169DDF990AFFB739C0248C /* Pods-CocoaPods-LmMobSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28752AEBC7DD58DF1121FCDCEAC28219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938431EAF245BC9ACF9F5B6FEF5B1ED4 /* Pods-CocoaPods-LmMobSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaPods-LmMobSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaPods-LmMobSDK/Pods-CocoaPods-LmMobSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B740547CD721BC50A8BBD197242B6E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9000FB751493B0857D56769C430951A /* Pods-CocoaPods-LmMobSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaPods-LmMobSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaPods-LmMobSDK/Pods-CocoaPods-LmMobSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B25C32459AFBB2DE7A5EF1ECF6A8394 /* Build configuration list for PBXNativeTarget "Pods-CocoaPods-LmMobSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B740547CD721BC50A8BBD197242B6E44 /* Debug */,
+				28752AEBC7DD58DF1121FCDCEAC28219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

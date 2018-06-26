@@ -1,0 +1,6 @@
+framework module Pods_CocoaPods_LmMobSDK {
+  umbrella header "Pods-CocoaPods-LmMobSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
