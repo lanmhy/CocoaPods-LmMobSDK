@@ -13,73 +13,157 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04EBC374BAB9D2630B5D0693AD5ECDA7 /* MVMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVMediaView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVMediaView.h; sourceTree = "<group>"; };
-		127FA2D460C32C46F0905DF634760345 /* AdColonyNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyNativeAdView.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h; sourceTree = "<group>"; };
-		12B6117A9861A9C2833CD33AD86B02AA /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
-		13CB5CC826E3CEADA60A682ECA2B7EBB /* AdColonyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyOptions.h; sourceTree = "<group>"; };
-		1699E0A52868D3787B028EDF9997E25B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = LmMobSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
-		18A224C143BFF1FC3AAA5A59F580FCE8 /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
-		1942F2CB8E902454436DCC2B469DCB33 /* UADSJsonStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSJsonStorage.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSJsonStorage.h; sourceTree = "<group>"; };
-		207D7D5CB1D134CA2600533753361E4D /* UnityAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAds.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAds.h; sourceTree = "<group>"; };
-		2554F49E6E315236E202B5A7FBA48A74 /* AdColonyEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyEventTracker.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyEventTracker.h; sourceTree = "<group>"; };
-		3146FE2D7A8CCABC0AFD19CF9F45CE07 /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Centrixlink.framework; path = LmMobSDK/frameworks/Centrixlink.framework; sourceTree = "<group>"; };
-		3178C08ABD70F4E05B73CE8D74B0EC94 /* MVFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVFrame.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVFrame.h; sourceTree = "<group>"; };
-		37A97D57DDAFBBCE6F6524DC5C77083E /* LmMobSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LmMobSDK.h; path = LmMobSDK/LmMobSDK.h; sourceTree = "<group>"; };
-		390880918782B5990696CD6B8974A051 /* VungleSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDK.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDK.h; sourceTree = "<group>"; };
-		3D1E0446FF0951429049B2CBF29B8D8A /* MVNativeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeScrollView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeScrollView.h; sourceTree = "<group>"; };
-		458A8252F48A1CFED49EE93EBA8C3B2E /* UADSPurchasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPurchasing.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPurchasing.h; sourceTree = "<group>"; };
-		463238D0F72884E0A6F81D0BC7ED034C /* MVTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVTemplate.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVTemplate.h; sourceTree = "<group>"; };
-		4751CD1B366065A6E1F5363E3F14BED8 /* UADSMediationMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMediationMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMediationMetaData.h; sourceTree = "<group>"; };
+		0077F46670BCC9BD3A9D3A897BC2D4C1 /* AdColonyAdRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdRequestError.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdRequestError.h; sourceTree = "<group>"; };
+		01C5CBFC35F9B59D978BDB7A39ECFBC6 /* VungleSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDK.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDK.h; sourceTree = "<group>"; };
+		035D998965603C68F5F1C4640189F393 /* MVRewardAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdManager.h; path = LmMobSDK/frameworks/MVSDKReward.framework/Versions/A/Headers/MVRewardAdManager.h; sourceTree = "<group>"; };
+		03B881FBD2CE3E0731264A8F9EE2EC8B /* GADRewardBasedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRewardBasedVideoAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h; sourceTree = "<group>"; };
+		082B1BF41BCFDFE7070FC1245A0E25A2 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		0E7418DDEE797D5BB0772A6C5FEB5C08 /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = LmMobSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
+		121D2CA0ADC8746C1745CF262315207B /* GADAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h; sourceTree = "<group>"; };
+		13708137A886C7CB7D8AC9B4FAE3F13D /* DFPBannerViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPBannerViewOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h; sourceTree = "<group>"; };
+		139A43B80C33395C10CEBA4E7C25D5D3 /* GADRewardBasedVideoAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRewardBasedVideoAdDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h; sourceTree = "<group>"; };
+		14010709FC845CC630E4FA75BB30EE4B /* LmMobUnstartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobUnstartedIcon.png; path = LmMobSDK/Assets/LmMobUnstartedIcon.png; sourceTree = "<group>"; };
+		14D5B032F91CD61398960D9467680B9A /* GADNativeAdImageAdLoaderOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAdImageAdLoaderOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h; sourceTree = "<group>"; };
+		15C0A75C24A478266DFD4842C5F34F74 /* Centrixlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Centrixlink.framework; path = LmMobSDK/frameworks/Centrixlink.framework; sourceTree = "<group>"; };
+		180E5015E44541748D3CCB01A4C9FCD3 /* CentrixlinkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkProtocol.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkProtocol.h; sourceTree = "<group>"; };
+		188DFFE1CE10194F254420F4542158C8 /* GADUnifiedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADUnifiedNativeAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h; sourceTree = "<group>"; };
+		1A8F98A6D586253532A7758DDBBE334E /* GADNativeContentAdAssetIDs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeContentAdAssetIDs.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h; sourceTree = "<group>"; };
+		1A9C5920C9FCCE4C4E9AD9BD36FBBE4F /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		1AEE6334C5658EAC0A60CAD24E08ABE5 /* GADAppEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAppEventDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h; sourceTree = "<group>"; };
+		1C72065F3DC86EB874F12F8B9E426C02 /* LmMobStartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobStartedIcon.png; path = LmMobSDK/Assets/LmMobStartedIcon.png; sourceTree = "<group>"; };
+		1D16561D12C5647A49C20E81FBEFD13E /* GADCustomEventNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventNativeAdDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h; sourceTree = "<group>"; };
+		1E9EFDA21E20CC1F3F7830CDEE84BB69 /* VungleSDKHeaderBidding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKHeaderBidding.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKHeaderBidding.h; sourceTree = "<group>"; };
+		211697B6EC26D3D647180E756390044F /* GADSearchBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchBannerView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h; sourceTree = "<group>"; };
+		213283138DCD470FA685F4D4F13D1729 /* GADNativeContentAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeContentAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h; sourceTree = "<group>"; };
+		23E84D8760911FAEA8D7EF5872B8A30D /* GADMediationAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediationAdRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h; sourceTree = "<group>"; };
+		26AAAD18CFE2769A642523DB32739995 /* CLSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLog.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CLSLog.h; sourceTree = "<group>"; };
+		28F533AF17650F64E8E1ED3585087E72 /* GADNativeAdImage+Mediation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GADNativeAdImage+Mediation.h"; path = "LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"; sourceTree = "<group>"; };
+		2A79466074DF8B87CCA6B8265A3D7C76 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		2A9E7D582997171906098C8B8C758E41 /* GADInAppPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchase.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h; sourceTree = "<group>"; };
+		31E77B6228D64253DCF383E18E50E506 /* MVTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVTemplate.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVTemplate.h; sourceTree = "<group>"; };
+		36643FA0BD1870651927E988F10981DB /* MVRewardAdInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVRewardAdInfo.h; sourceTree = "<group>"; };
+		3DFB1146BCDD69106F2BFB5289EF585C /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		3E439E627123948388AF6B5E71EB181D /* MVMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVMediaView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVMediaView.h; sourceTree = "<group>"; };
+		3EC26C35750D7B3F6559BBECC1B3B1DC /* DFPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h; sourceTree = "<group>"; };
+		443C5EBC64D9F33D358034432865F36D /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdOptions.h; sourceTree = "<group>"; };
+		46CD0AC519FD731B18C2A695D5D42F11 /* GADUnifiedNativeAdUnconfirmedClickDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADUnifiedNativeAdUnconfirmedClickDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdUnconfirmedClickDelegate.h; sourceTree = "<group>"; };
+		476E72C2436421E0FFD5539D45A86124 /* AdColonyNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyNativeAdView.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h; sourceTree = "<group>"; };
 		491AF9C0C76C68F1F3F2FC2D38CECE2D /* Pods-CocoaPods-LmMobSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPods-LmMobSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AFB225B9792FB218945779BE5319CED /* Pods_CocoaPods_LmMobSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaPods_LmMobSDK.framework; path = "Pods-CocoaPods-LmMobSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B4BC0B967657EA1B536263642FD11ED /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = LmMobSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
-		4E0E72EFDA01E49C8B3AECB57B0F9413 /* MVErrorCodeConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVErrorCodeConstant.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVErrorCodeConstant.h; sourceTree = "<group>"; };
+		4B9D1224B20FF7DB622979C6BF9FE908 /* Centrixlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Centrixlink.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/Centrixlink.h; sourceTree = "<group>"; };
+		4D68B9845BE6571403B4FC635CC68515 /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
+		5174230815B99717C3051D52F33D8429 /* AdColonyZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyZone.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyZone.h; sourceTree = "<group>"; };
+		51D72D9B07AEBA7D413C77B0FA8A4AA9 /* GADVideoControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADVideoControllerDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h; sourceTree = "<group>"; };
+		521BABC9030A28F7006B41ED28918E68 /* LmMobSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LmMobSDK.h; path = LmMobSDK/LmMobSDK.h; sourceTree = "<group>"; };
+		521BDE0FA28786FADF1EA8888599B11C /* AdColonyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyTypes.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyTypes.h; sourceTree = "<group>"; };
+		540DDEE1A32A02B79720DFC1A0D19796 /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UnityAds.bundle; path = LmMobSDK/Assets/UnityAds.bundle; sourceTree = "<group>"; };
 		5599456F4C8BF8155CD2585BE62C6E0A /* Pods-CocoaPods-LmMobSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPods-LmMobSDK-dummy.m"; sourceTree = "<group>"; };
+		56204891D82E698E599141D25A49B17B /* UADSJsonStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSJsonStorage.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSJsonStorage.h; sourceTree = "<group>"; };
+		5649DC838388F008611831AD3560EE9D /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = LmMobSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
+		573827751DAA6AA597F2AC8F1A52AB58 /* GADRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADRequest.h; sourceTree = "<group>"; };
 		59405CF9CAB67312419BBB8DC00B1197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594850E50A3DDE6F55CAA84939767DAE /* GADAdLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdLoader.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D2B9893A3619F1D802C76975BE2EF88 /* GADMediatedUnifiedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedUnifiedNativeAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h; sourceTree = "<group>"; };
+		5EC3F6E0CE5FD1D8EA997939D46B51AA /* UADSPlayerMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPlayerMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPlayerMetaData.h; sourceTree = "<group>"; };
+		5EF8CA108502DB55520E898F9D5D697E /* AdColonyEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyEventTracker.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyEventTracker.h; sourceTree = "<group>"; };
+		6062532EC62A7DAB97D2FCBD2E9C21B7 /* GADMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediaView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h; sourceTree = "<group>"; };
+		62B4F123605B79FC9786E3E61C8D137C /* GADAudioVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAudioVideoManager.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h; sourceTree = "<group>"; };
+		642E5C1FAA57C951AFC3F7600C22249C /* MVUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVUserInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVUserInfo.h; sourceTree = "<group>"; };
+		647F30F031AAB962424469DCE2B7C2E1 /* GADMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMobileAds.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h; sourceTree = "<group>"; };
 		66083285BC6FD125DA4885F55BCB954C /* Pods-CocoaPods-LmMobSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPods-LmMobSDK-frameworks.sh"; sourceTree = "<group>"; };
-		663041162699995A7AD9DCBE5C3BCDFA /* CentrixlinkAD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkAD.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkAD.h; sourceTree = "<group>"; };
-		6814534701B771D645C4E2E9A32D2A3B /* AdColonyUserMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyUserMetadata.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyUserMetadata.h; sourceTree = "<group>"; };
-		692FE06B36080F44741474BE8B1D39E8 /* UADSPlayerMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPlayerMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPlayerMetaData.h; sourceTree = "<group>"; };
-		6AC750BE2DB84B72130C65D307D29CBF /* AdColonyAppOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAppOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAppOptions.h; sourceTree = "<group>"; };
-		6C0CA321F8659EF26A9B65FF2D26348D /* AdColonyAdRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdRequestError.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdRequestError.h; sourceTree = "<group>"; };
-		6CCA09220919975DB23EE59BF168FAED /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = LmMobSDK/frameworks/VungleSDK.framework; sourceTree = "<group>"; };
-		705CBEB825830CB3D507A399729A533C /* AdColonyZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyZone.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyZone.h; sourceTree = "<group>"; };
-		787520505B3047C108A70829199FB500 /* Centrixlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Centrixlink.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/Centrixlink.h; sourceTree = "<group>"; };
-		7C774B70CB9EE9E77355E09948925B06 /* MVSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVSDK.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVSDK.h; sourceTree = "<group>"; };
+		66BC5110ABA668DE6843C4C3519B7539 /* UnityAdsExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAdsExtended.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAdsExtended.h; sourceTree = "<group>"; };
+		67DB58F48D45D1822B8F50C0C4F54875 /* AdColonyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyOptions.h; sourceTree = "<group>"; };
+		6A36CFA55EE948F6D5AA5E21028C3339 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h; sourceTree = "<group>"; };
+		6BCF02B2607BB6E531D0E1501754915A /* GADDebugOptionsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADDebugOptionsViewController.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h; sourceTree = "<group>"; };
+		6C8F8BCC1B752EAF302EA36E050816DE /* DFPCustomRenderedInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPCustomRenderedInterstitialDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h; sourceTree = "<group>"; };
+		6E8C15C77F4C25841AC256DEB2BD02CA /* GADAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdChoicesView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdChoicesView.h; sourceTree = "<group>"; };
+		6FDC3BD567B72DA389EC1BB86E51DDC2 /* DFPInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPInterstitial.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h; sourceTree = "<group>"; };
+		744B814AE6C616A23F7DF14DC66E5FE2 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		78E96D231914DAEB33AFD39E8A2E9EB0 /* UnityAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAds.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAds.h; sourceTree = "<group>"; };
+		79F5D1A26BDB447C4F242F340A43C7C2 /* GADNativeAppInstallAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAppInstallAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h; sourceTree = "<group>"; };
+		7B33C4D8FC812836163517F28243DCB6 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBanner.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h; sourceTree = "<group>"; };
+		7BBFC2283C0818684214BB41B092CA7D /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		7F1090267113BCF290C626EB66B42A9B /* DFPBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPBannerView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h; sourceTree = "<group>"; };
 		824818623212BAFA70604D7DAEAFA26E /* Pods-CocoaPods-LmMobSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPods-LmMobSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		860A897C9F454DCA1A8E997132C11990 /* LmMobStartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobStartedIcon.png; path = LmMobSDK/Assets/LmMobStartedIcon.png; sourceTree = "<group>"; };
-		89F584041647411AC5022CA59BD84F7B /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAdOptions.h; sourceTree = "<group>"; };
-		8CA37AA45E9972F5FF52763D86A45602 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColony.h; sourceTree = "<group>"; };
-		8DFF179C08E437363E1784DA5A28E4DA /* CentrixlinkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkProtocol.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkProtocol.h; sourceTree = "<group>"; };
+		88659D613EDC98EF83C7DBEC1A715499 /* GADMEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMEnums.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h; sourceTree = "<group>"; };
+		898DB7C5EB2CEBE990BC9460E96D143B /* GADAudioVideoManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAudioVideoManagerDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h; sourceTree = "<group>"; };
+		89B3BB1774DEC3040EDEBBA0210B26A0 /* GADMediatedNativeAppInstallAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedNativeAppInstallAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAppInstallAd.h; sourceTree = "<group>"; };
+		8AED6B5BD051D2444EFEF60DFA4C34CE /* GADMediatedUnifiedNativeAdNotificationSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedUnifiedNativeAdNotificationSource.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h; sourceTree = "<group>"; };
+		8FE9CB531528D25A3CA9E1A7D4E47FBD /* GADCustomEventNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventNativeAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h; sourceTree = "<group>"; };
+		90B40855E7BA62B8EA58D99B1EB77C79 /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
 		938431EAF245BC9ACF9F5B6FEF5B1ED4 /* Pods-CocoaPods-LmMobSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPods-LmMobSDK.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B8C1CA5E89A81D4EA632A5FE15D454 /* GADNativeExpressAdViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeExpressAdViewDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h; sourceTree = "<group>"; };
+		96AC5A189A041125C1D6E39B5223B631 /* MVErrorCodeConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVErrorCodeConstant.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVErrorCodeConstant.h; sourceTree = "<group>"; };
+		974FDF9168937A6E9F4FE3D3D8003974 /* GADUnifiedNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADUnifiedNativeAdDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h; sourceTree = "<group>"; };
+		982636438ADC4A8B646B42CD7AA19A66 /* GADUnifiedNativeAdAssetIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADUnifiedNativeAdAssetIdentifiers.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h; sourceTree = "<group>"; };
+		9F62B3C32685C3F02B6FC5571EB11DC6 /* UADSMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMetaData.h; sourceTree = "<group>"; };
+		A0CFE689D1C517ECE42C5AF11F1E779D /* GADCustomEventExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventExtras.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h; sourceTree = "<group>"; };
+		A1CA58DD29C52931F8E59992085F7326 /* MVSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVSDK.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVSDK.h; sourceTree = "<group>"; };
+		A31B8BB580D5D85128B67C173AD0A615 /* GADVideoController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADVideoController.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h; sourceTree = "<group>"; };
+		A39F5A16B9F5652B46696FBA097AB5EF /* VungleSDKCreativeTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKCreativeTracking.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKCreativeTracking.h; sourceTree = "<group>"; };
+		A3AB18F8803E2D4E7072C06B79876AAF /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = LmMobSDK/frameworks/UnityAds.framework; sourceTree = "<group>"; };
+		A3FCA90854B83310188A68ECE5EE5F48 /* DFPCustomRenderedBannerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPCustomRenderedBannerViewDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h; sourceTree = "<group>"; };
+		A4C9062BF2C726CE8FA5EADA884162D3 /* GADBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h; sourceTree = "<group>"; };
 		A56B6D811F5175D1C3DAC09C98D33BBA /* Pods-CocoaPods-LmMobSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPods-LmMobSDK-resources.sh"; sourceTree = "<group>"; };
-		AB3A48D468EB1EC90FE0DD5666E29369 /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UnityAds.bundle; path = LmMobSDK/Assets/UnityAds.bundle; sourceTree = "<group>"; };
-		B371BDD5C1672CD2B71645A0835020C6 /* UnityAdsExtended.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAdsExtended.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UnityAdsExtended.h; sourceTree = "<group>"; };
-		B58CF29A44004D70644364D53398FD53 /* UADSInAppPurchaseMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSInAppPurchaseMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h; sourceTree = "<group>"; };
-		B62131457D1AB4BF3B5363CE01E97038 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = LmMobSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
-		B7294C9BA9AAF30E1C6E8172EB096931 /* LmMobUnstartedIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = LmMobUnstartedIcon.png; path = LmMobSDK/Assets/LmMobUnstartedIcon.png; sourceTree = "<group>"; };
-		B846B4F5102229B049C071C2E2E9F328 /* VungleSDKHeaderBidding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKHeaderBidding.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKHeaderBidding.h; sourceTree = "<group>"; };
-		B8F50E5AAB8F997EAD085AEAFEFE1ACA /* MVSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDKReward.framework; path = LmMobSDK/frameworks/MVSDKReward.framework; sourceTree = "<group>"; };
-		B9C6E8AE0FEF2E8422CE5DE8E7F7C358 /* MVRewardAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdManager.h; path = LmMobSDK/frameworks/MVSDKReward.framework/Versions/A/Headers/MVRewardAdManager.h; sourceTree = "<group>"; };
+		A69B912B70F81BAE65A9F007D9F17551 /* GADCorrelatorAdLoaderOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCorrelatorAdLoaderOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h; sourceTree = "<group>"; };
+		A7C3264215D64F9E7C3C1F38E70DF542 /* ChartboostDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChartboostDelegate.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/ChartboostDelegate.h; sourceTree = "<group>"; };
+		A99B290D57610135FDA0A86346CECB85 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = LmMobSDK/frameworks/Chartboost.framework; sourceTree = "<group>"; };
+		AA51AF0CAC433539CB263C0F60E2F0F3 /* AdColonyAppOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAppOptions.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyAppOptions.h; sourceTree = "<group>"; };
+		ABDDC2461F5AD30E2E6828E6945090F0 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMAdNetworkAdapterProtocol.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		AC0568B9437823F6E3B5EE5CE945035F /* GADMediatedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedNativeAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h; sourceTree = "<group>"; };
+		ACED156F76FC34B00EF170FF61C3216F /* GADUnifiedNativeAd+ConfirmationClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GADUnifiedNativeAd+ConfirmationClick.h"; path = "LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+ConfirmationClick.h"; sourceTree = "<group>"; };
+		B186ECABF17F38DDEFD0622360DD3E36 /* GADNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAdDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h; sourceTree = "<group>"; };
+		B54120FE1421B5B2D18B4B2632CBAF58 /* GADNativeAdViewAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAdViewAdOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h; sourceTree = "<group>"; };
+		B7EC3523BF8592C8F716380864B1E97B /* AdColonyInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyInterstitial.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyInterstitial.h; sourceTree = "<group>"; };
+		B8465F5BD04BE557F83669B89EB1CDEE /* CentrixlinkAD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkAD.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkAD.h; sourceTree = "<group>"; };
+		B95F3077766592866F53CFB7D323F303 /* GADNativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAdImage.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h; sourceTree = "<group>"; };
 		BA62BC5DB6E827B8129F591076C926B9 /* Pods-CocoaPods-LmMobSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPods-LmMobSDK-umbrella.h"; sourceTree = "<group>"; };
+		BB2B0C50D5A9A61B1FD85812921A0CA7 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMAdNetworkConnectorProtocol.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
 		BD0B30FCB6A6D6296F22156EDB0B6658 /* Pods-CocoaPods-LmMobSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoaPods-LmMobSDK.modulemap"; sourceTree = "<group>"; };
-		BE1A16548EA5D9E35D6F89915B9CA2ED /* CentrixlinkConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkConst.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkConst.h; sourceTree = "<group>"; };
-		BE3723F13761E8516C6BBCFB424E7205 /* ChartboostDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChartboostDelegate.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/ChartboostDelegate.h; sourceTree = "<group>"; };
-		C2CD0ED1CA7FB266783FEE376B49DEC2 /* AdColonyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyTypes.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyTypes.h; sourceTree = "<group>"; };
-		D37BD16F194E3177EB4395272FF4D8B4 /* MVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVSDK.framework; path = LmMobSDK/frameworks/MVSDK.framework; sourceTree = "<group>"; };
-		D50365B593FC3F361AF75D7DCD10C6BE /* MVUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVUserInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVUserInfo.h; sourceTree = "<group>"; };
-		D5797358016558236B9F28DCA7278AA2 /* MVNativeAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeAdManager.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeAdManager.h; sourceTree = "<group>"; };
-		D67EA8B6FB3FBBC8CA578CCE6163AF72 /* CLSLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLog.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CLSLog.h; sourceTree = "<group>"; };
-		D741FD20CDD625AE34D95A93F4C393F8 /* libLmMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLmMobSDK.a; path = LmMobSDK/libLmMobSDK.a; sourceTree = "<group>"; };
-		E78784DECD08903537BE58D3C64F7A21 /* AdColonyInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyInterstitial.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyInterstitial.h; sourceTree = "<group>"; };
-		E7CD9156B5B55895795F702CDE19FE24 /* MVCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVCampaign.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVCampaign.h; sourceTree = "<group>"; };
-		E857AC4DE5C02EF98455392E9B68239D /* VungleSDKCreativeTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VungleSDKCreativeTracking.h; path = LmMobSDK/frameworks/VungleSDK.framework/Headers/VungleSDKCreativeTracking.h; sourceTree = "<group>"; };
-		E8C09530299AE0B7682837827502C6E0 /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
-		E9086810B655778FF58F30429EA6080B /* MVRewardAdInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVRewardAdInfo.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVRewardAdInfo.h; sourceTree = "<group>"; };
-		F17BEE7D70ABEC56096FF389D43ADAFC /* UADSMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMetaData.h; sourceTree = "<group>"; };
+		BD6887F8ACAF0EE5295159CE5BFC79A5 /* MVNativeAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeAdManager.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeAdManager.h; sourceTree = "<group>"; };
+		BD80B26EB131BEE728205E4C738C365A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		BDCEC592B8738B08DD9FE410946FA7D8 /* GADMultipleAdsAdLoaderOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMultipleAdsAdLoaderOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h; sourceTree = "<group>"; };
+		C121979BD554C1F2C0CBF4A661626EED /* GADVideoOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADVideoOptions.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h; sourceTree = "<group>"; };
+		C160349C52144DE76289A88BE942CC9F /* GADInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h; sourceTree = "<group>"; };
+		C1CD39824E64172B06F42DFAFF7C0811 /* MVNativeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVNativeScrollView.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVNativeScrollView.h; sourceTree = "<group>"; };
+		C27A53500E5792650D8EF5381601E263 /* GADDynamicHeightSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADDynamicHeightSearchRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h; sourceTree = "<group>"; };
+		C496565F2AD7FF920AB4AD556E7E31BF /* libLmMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLmMobSDK.a; path = LmMobSDK/libLmMobSDK.a; sourceTree = "<group>"; };
+		CA484885E9E9F4C0512B991C96A12B7F /* GADNativeCustomTemplateAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeCustomTemplateAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h; sourceTree = "<group>"; };
+		CA60E96A0275E56DB189E2BB5BE0292E /* GoogleMobileAdsDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleMobileAdsDefines.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h; sourceTree = "<group>"; };
+		CB5A6242897F80CA160D5282F7F3771F /* GoogleMobileAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleMobileAds.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h; sourceTree = "<group>"; };
+		CBDFA0306F82387941FB68A83E35AEF6 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitialDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		CC659EACC89DF982F6846FAC12407AB3 /* UADSPurchasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSPurchasing.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSPurchasing.h; sourceTree = "<group>"; };
+		CD70F5204FF4DA5E64636269C314EE9F /* MVCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVCampaign.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVCampaign.h; sourceTree = "<group>"; };
+		CF04C8636500FDD339A5433121120B2B /* GADExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADExtras.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADExtras.h; sourceTree = "<group>"; };
+		CFEEF9056DD5E0814DEFCCFC2E3D7F55 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColony.h; sourceTree = "<group>"; };
+		D1354B67656C6F408C29B74830E90A5F /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		D2CDEBA81C8168D0FE8850A7C3634850 /* GADCorrelator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCorrelator.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h; sourceTree = "<group>"; };
+		D9B1172E8C6FF66B899EEF413518B403 /* GADRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h; sourceTree = "<group>"; };
+		DA086548F458EFB3F76A8562C90357D6 /* MVFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MVFrame.h; path = LmMobSDK/frameworks/MVSDK.framework/Versions/A/Headers/MVFrame.h; sourceTree = "<group>"; };
+		DA0D78090BED9BCA2727814C48CEB9FE /* DFPCustomRenderedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DFPCustomRenderedAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h; sourceTree = "<group>"; };
+		DA896C9A6F7BD7564956607750A7A8FE /* CentrixlinkConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CentrixlinkConst.h; path = LmMobSDK/frameworks/Centrixlink.framework/Versions/A/Headers/CentrixlinkConst.h; sourceTree = "<group>"; };
+		DE1128B11B982A5177C5F1B198CC3F17 /* UADSInAppPurchaseMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSInAppPurchaseMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h; sourceTree = "<group>"; };
+		E39BD1369F8E17579D38F0DF5DC2DE9E /* GADMediatedNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedNativeAdDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h; sourceTree = "<group>"; };
+		E5281CE6155B7C38B8289F6A1B14199E /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = LmMobSDK/frameworks/AdColony.framework; sourceTree = "<group>"; };
+		E61D3B877BFFC7AA91665140961DCFC1 /* GADNativeAppInstallAdAssetIDs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAppInstallAdAssetIDs.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h; sourceTree = "<group>"; };
+		E6AA8AA6BA1AE9B8BED1C6C4E1D92220 /* GADMediatedNativeContentAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedNativeContentAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeContentAd.h; sourceTree = "<group>"; };
+		E76D4F55028111C489B67DB3056B7867 /* GADAdSizeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdSizeDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h; sourceTree = "<group>"; };
+		E98DB3CAE4DB19DD3921A574610E2CDE /* UADSMediationMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UADSMediationMetaData.h; path = LmMobSDK/frameworks/UnityAds.framework/Headers/UADSMediationMetaData.h; sourceTree = "<group>"; };
+		E9E8ABD70CF424CD7CAFE59E8965503F /* GADAdLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdLoaderDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h; sourceTree = "<group>"; };
+		EAB46DF0C685D1378A2B06AF8060F696 /* GADAdReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdReward.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h; sourceTree = "<group>"; };
+		EE7928D290D3BA83E4C26BE472470D86 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventBannerDelegate.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		EE8870EDCC6323136768F1F0C8AF905C /* GADAdLoaderAdTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADAdLoaderAdTypes.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h; sourceTree = "<group>"; };
+		F04B152A313FBB08AD888A4DB05130A5 /* GADNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeExpressAdView.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h; sourceTree = "<group>"; };
+		F2299BDDB25DE775027BE9BCABA939C7 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventInterstitial.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		F24699BA67BD75B612A72FA3E6F144F6 /* GADMediatedNativeAdNotificationSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADMediatedNativeAdNotificationSource.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h; sourceTree = "<group>"; };
+		F2A83B484AE9326EB690872502370519 /* GADNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADNativeAd.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h; sourceTree = "<group>"; };
 		F9000FB751493B0857D56769C430951A /* Pods-CocoaPods-LmMobSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPods-LmMobSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		FC212D0C27B640975D3F688378C47A27 /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = LmMobSDK/frameworks/Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
+		FC9DEC926DF69E7AD7449A714DFD99B1 /* GADSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADSearchRequest.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h; sourceTree = "<group>"; };
+		FE900FA1D8F85F0000D3E7965CDC17DD /* GADCustomEventParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GADCustomEventParameters.h; path = LmMobSDK/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h; sourceTree = "<group>"; };
+		FF7BE2731BECC93CDE4B3AA8D2EBF6B8 /* AdColonyUserMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyUserMetadata.h; path = LmMobSDK/frameworks/AdColony.framework/Versions/A/Headers/AdColonyUserMetadata.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,21 +178,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		206C4D47C2D834E7367796D50369AF28 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B62131457D1AB4BF3B5363CE01E97038 /* AdColony.framework */,
-				3146FE2D7A8CCABC0AFD19CF9F45CE07 /* Centrixlink.framework */,
-				4B4BC0B967657EA1B536263642FD11ED /* Chartboost.framework */,
-				D741FD20CDD625AE34D95A93F4C393F8 /* libLmMobSDK.a */,
-				D37BD16F194E3177EB4395272FF4D8B4 /* MVSDK.framework */,
-				B8F50E5AAB8F997EAD085AEAFEFE1ACA /* MVSDKReward.framework */,
-				1699E0A52868D3787B028EDF9997E25B /* UnityAds.framework */,
-				6CCA09220919975DB23EE59BF168FAED /* VungleSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		26EB36D5035C442BEF7D6B463A0D8023 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,16 +212,6 @@
 			path = "Target Support Files/Pods-CocoaPods-LmMobSDK";
 			sourceTree = "<group>";
 		};
-		392C416613A8169DB1A5227F5F9245E1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				860A897C9F454DCA1A8E997132C11990 /* LmMobStartedIcon.png */,
-				B7294C9BA9AAF30E1C6E8172EB096931 /* LmMobUnstartedIcon.png */,
-				AB3A48D468EB1EC90FE0DD5666E29369 /* UnityAds.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,68 +220,194 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		746C897645E29C464E4D4675F2454C35 /* LmMobSDK */ = {
-			isa = PBXGroup;
-			children = (
-				8CA37AA45E9972F5FF52763D86A45602 /* AdColony.h */,
-				89F584041647411AC5022CA59BD84F7B /* AdColonyAdOptions.h */,
-				6C0CA321F8659EF26A9B65FF2D26348D /* AdColonyAdRequestError.h */,
-				6AC750BE2DB84B72130C65D307D29CBF /* AdColonyAppOptions.h */,
-				2554F49E6E315236E202B5A7FBA48A74 /* AdColonyEventTracker.h */,
-				E78784DECD08903537BE58D3C64F7A21 /* AdColonyInterstitial.h */,
-				127FA2D460C32C46F0905DF634760345 /* AdColonyNativeAdView.h */,
-				13CB5CC826E3CEADA60A682ECA2B7EBB /* AdColonyOptions.h */,
-				C2CD0ED1CA7FB266783FEE376B49DEC2 /* AdColonyTypes.h */,
-				6814534701B771D645C4E2E9A32D2A3B /* AdColonyUserMetadata.h */,
-				705CBEB825830CB3D507A399729A533C /* AdColonyZone.h */,
-				12B6117A9861A9C2833CD33AD86B02AA /* CBAnalytics.h */,
-				18A224C143BFF1FC3AAA5A59F580FCE8 /* CBInPlay.h */,
-				787520505B3047C108A70829199FB500 /* Centrixlink.h */,
-				663041162699995A7AD9DCBE5C3BCDFA /* CentrixlinkAD.h */,
-				BE1A16548EA5D9E35D6F89915B9CA2ED /* CentrixlinkConst.h */,
-				8DFF179C08E437363E1784DA5A28E4DA /* CentrixlinkProtocol.h */,
-				E8C09530299AE0B7682837827502C6E0 /* Chartboost.h */,
-				BE3723F13761E8516C6BBCFB424E7205 /* ChartboostDelegate.h */,
-				D67EA8B6FB3FBBC8CA578CCE6163AF72 /* CLSLog.h */,
-				37A97D57DDAFBBCE6F6524DC5C77083E /* LmMobSDK.h */,
-				E7CD9156B5B55895795F702CDE19FE24 /* MVCampaign.h */,
-				4E0E72EFDA01E49C8B3AECB57B0F9413 /* MVErrorCodeConstant.h */,
-				3178C08ABD70F4E05B73CE8D74B0EC94 /* MVFrame.h */,
-				04EBC374BAB9D2630B5D0693AD5ECDA7 /* MVMediaView.h */,
-				D5797358016558236B9F28DCA7278AA2 /* MVNativeAdManager.h */,
-				3D1E0446FF0951429049B2CBF29B8D8A /* MVNativeScrollView.h */,
-				E9086810B655778FF58F30429EA6080B /* MVRewardAdInfo.h */,
-				B9C6E8AE0FEF2E8422CE5DE8E7F7C358 /* MVRewardAdManager.h */,
-				7C774B70CB9EE9E77355E09948925B06 /* MVSDK.h */,
-				463238D0F72884E0A6F81D0BC7ED034C /* MVTemplate.h */,
-				D50365B593FC3F361AF75D7DCD10C6BE /* MVUserInfo.h */,
-				B58CF29A44004D70644364D53398FD53 /* UADSInAppPurchaseMetaData.h */,
-				1942F2CB8E902454436DCC2B469DCB33 /* UADSJsonStorage.h */,
-				4751CD1B366065A6E1F5363E3F14BED8 /* UADSMediationMetaData.h */,
-				F17BEE7D70ABEC56096FF389D43ADAFC /* UADSMetaData.h */,
-				692FE06B36080F44741474BE8B1D39E8 /* UADSPlayerMetaData.h */,
-				458A8252F48A1CFED49EE93EBA8C3B2E /* UADSPurchasing.h */,
-				207D7D5CB1D134CA2600533753361E4D /* UnityAds.h */,
-				B371BDD5C1672CD2B71645A0835020C6 /* UnityAdsExtended.h */,
-				390880918782B5990696CD6B8974A051 /* VungleSDK.h */,
-				E857AC4DE5C02EF98455392E9B68239D /* VungleSDKCreativeTracking.h */,
-				B846B4F5102229B049C071C2E2E9F328 /* VungleSDKHeaderBidding.h */,
-				206C4D47C2D834E7367796D50369AF28 /* Frameworks */,
-				392C416613A8169DB1A5227F5F9245E1 /* Resources */,
-			);
-			name = LmMobSDK;
-			path = LmMobSDK;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D9DC9D71F18F0EBCEC734CC6B9DF1028 /* Pods */,
+				9470C24A401B018D690E055E425CB785 /* Pods */,
 				2F4A4E8ABF3E34325E38D192751EF11F /* Products */,
 				26EB36D5035C442BEF7D6B463A0D8023 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82EF6D622C821268FB1A868EDBEB2D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5281CE6155B7C38B8289F6A1B14199E /* AdColony.framework */,
+				15C0A75C24A478266DFD4842C5F34F74 /* Centrixlink.framework */,
+				A99B290D57610135FDA0A86346CECB85 /* Chartboost.framework */,
+				C496565F2AD7FF920AB4AD556E7E31BF /* libLmMobSDK.a */,
+				5649DC838388F008611831AD3560EE9D /* MVSDK.framework */,
+				0E7418DDEE797D5BB0772A6C5FEB5C08 /* MVSDKReward.framework */,
+				A3AB18F8803E2D4E7072C06B79876AAF /* UnityAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88B416E33DF6929D60CA2E4CE7AFF40F /* VungleSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE517C95DA187BD2760E3A05FF303A91 /* Frameworks */,
+			);
+			name = "VungleSDK-iOS";
+			path = "VungleSDK-iOS";
+			sourceTree = "<group>";
+		};
+		9470C24A401B018D690E055E425CB785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFD794EC62F4D69B86886E572E4EEDB2 /* Google-Mobile-Ads-SDK */,
+				B7B17417B3C90C097B264B87125097E2 /* LmMobSDK */,
+				88B416E33DF6929D60CA2E4CE7AFF40F /* VungleSDK-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98F47159F28232E1FD370610633DCE98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C72065F3DC86EB874F12F8B9E426C02 /* LmMobStartedIcon.png */,
+				14010709FC845CC630E4FA75BB30EE4B /* LmMobUnstartedIcon.png */,
+				540DDEE1A32A02B79720DFC1A0D19796 /* UnityAds.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7B17417B3C90C097B264B87125097E2 /* LmMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CFEEF9056DD5E0814DEFCCFC2E3D7F55 /* AdColony.h */,
+				443C5EBC64D9F33D358034432865F36D /* AdColonyAdOptions.h */,
+				0077F46670BCC9BD3A9D3A897BC2D4C1 /* AdColonyAdRequestError.h */,
+				AA51AF0CAC433539CB263C0F60E2F0F3 /* AdColonyAppOptions.h */,
+				5EF8CA108502DB55520E898F9D5D697E /* AdColonyEventTracker.h */,
+				B7EC3523BF8592C8F716380864B1E97B /* AdColonyInterstitial.h */,
+				476E72C2436421E0FFD5539D45A86124 /* AdColonyNativeAdView.h */,
+				67DB58F48D45D1822B8F50C0C4F54875 /* AdColonyOptions.h */,
+				521BDE0FA28786FADF1EA8888599B11C /* AdColonyTypes.h */,
+				FF7BE2731BECC93CDE4B3AA8D2EBF6B8 /* AdColonyUserMetadata.h */,
+				5174230815B99717C3051D52F33D8429 /* AdColonyZone.h */,
+				4D68B9845BE6571403B4FC635CC68515 /* CBAnalytics.h */,
+				90B40855E7BA62B8EA58D99B1EB77C79 /* CBInPlay.h */,
+				4B9D1224B20FF7DB622979C6BF9FE908 /* Centrixlink.h */,
+				B8465F5BD04BE557F83669B89EB1CDEE /* CentrixlinkAD.h */,
+				DA896C9A6F7BD7564956607750A7A8FE /* CentrixlinkConst.h */,
+				180E5015E44541748D3CCB01A4C9FCD3 /* CentrixlinkProtocol.h */,
+				FC212D0C27B640975D3F688378C47A27 /* Chartboost.h */,
+				A7C3264215D64F9E7C3C1F38E70DF542 /* ChartboostDelegate.h */,
+				26AAAD18CFE2769A642523DB32739995 /* CLSLog.h */,
+				7F1090267113BCF290C626EB66B42A9B /* DFPBannerView.h */,
+				13708137A886C7CB7D8AC9B4FAE3F13D /* DFPBannerViewOptions.h */,
+				DA0D78090BED9BCA2727814C48CEB9FE /* DFPCustomRenderedAd.h */,
+				A3FCA90854B83310188A68ECE5EE5F48 /* DFPCustomRenderedBannerViewDelegate.h */,
+				6C8F8BCC1B752EAF302EA36E050816DE /* DFPCustomRenderedInterstitialDelegate.h */,
+				6FDC3BD567B72DA389EC1BB86E51DDC2 /* DFPInterstitial.h */,
+				3EC26C35750D7B3F6559BBECC1B3B1DC /* DFPRequest.h */,
+				6E8C15C77F4C25841AC256DEB2BD02CA /* GADAdChoicesView.h */,
+				594850E50A3DDE6F55CAA84939767DAE /* GADAdLoader.h */,
+				EE8870EDCC6323136768F1F0C8AF905C /* GADAdLoaderAdTypes.h */,
+				E9E8ABD70CF424CD7CAFE59E8965503F /* GADAdLoaderDelegate.h */,
+				D1354B67656C6F408C29B74830E90A5F /* GADAdNetworkExtras.h */,
+				EAB46DF0C685D1378A2B06AF8060F696 /* GADAdReward.h */,
+				121D2CA0ADC8746C1745CF262315207B /* GADAdSize.h */,
+				E76D4F55028111C489B67DB3056B7867 /* GADAdSizeDelegate.h */,
+				1AEE6334C5658EAC0A60CAD24E08ABE5 /* GADAppEventDelegate.h */,
+				62B4F123605B79FC9786E3E61C8D137C /* GADAudioVideoManager.h */,
+				898DB7C5EB2CEBE990BC9460E96D143B /* GADAudioVideoManagerDelegate.h */,
+				A4C9062BF2C726CE8FA5EADA884162D3 /* GADBannerView.h */,
+				082B1BF41BCFDFE7070FC1245A0E25A2 /* GADBannerViewDelegate.h */,
+				D2CDEBA81C8168D0FE8850A7C3634850 /* GADCorrelator.h */,
+				A69B912B70F81BAE65A9F007D9F17551 /* GADCorrelatorAdLoaderOptions.h */,
+				7B33C4D8FC812836163517F28243DCB6 /* GADCustomEventBanner.h */,
+				EE7928D290D3BA83E4C26BE472470D86 /* GADCustomEventBannerDelegate.h */,
+				A0CFE689D1C517ECE42C5AF11F1E779D /* GADCustomEventExtras.h */,
+				F2299BDDB25DE775027BE9BCABA939C7 /* GADCustomEventInterstitial.h */,
+				CBDFA0306F82387941FB68A83E35AEF6 /* GADCustomEventInterstitialDelegate.h */,
+				8FE9CB531528D25A3CA9E1A7D4E47FBD /* GADCustomEventNativeAd.h */,
+				1D16561D12C5647A49C20E81FBEFD13E /* GADCustomEventNativeAdDelegate.h */,
+				FE900FA1D8F85F0000D3E7965CDC17DD /* GADCustomEventParameters.h */,
+				6A36CFA55EE948F6D5AA5E21028C3339 /* GADCustomEventRequest.h */,
+				6BCF02B2607BB6E531D0E1501754915A /* GADDebugOptionsViewController.h */,
+				C27A53500E5792650D8EF5381601E263 /* GADDynamicHeightSearchRequest.h */,
+				CF04C8636500FDD339A5433121120B2B /* GADExtras.h */,
+				2A9E7D582997171906098C8B8C758E41 /* GADInAppPurchase.h */,
+				2A79466074DF8B87CCA6B8265A3D7C76 /* GADInAppPurchaseDelegate.h */,
+				C160349C52144DE76289A88BE942CC9F /* GADInterstitial.h */,
+				3DFB1146BCDD69106F2BFB5289EF585C /* GADInterstitialDelegate.h */,
+				ABDDC2461F5AD30E2E6828E6945090F0 /* GADMAdNetworkAdapterProtocol.h */,
+				BB2B0C50D5A9A61B1FD85812921A0CA7 /* GADMAdNetworkConnectorProtocol.h */,
+				AC0568B9437823F6E3B5EE5CE945035F /* GADMediatedNativeAd.h */,
+				E39BD1369F8E17579D38F0DF5DC2DE9E /* GADMediatedNativeAdDelegate.h */,
+				F24699BA67BD75B612A72FA3E6F144F6 /* GADMediatedNativeAdNotificationSource.h */,
+				89B3BB1774DEC3040EDEBBA0210B26A0 /* GADMediatedNativeAppInstallAd.h */,
+				E6AA8AA6BA1AE9B8BED1C6C4E1D92220 /* GADMediatedNativeContentAd.h */,
+				5D2B9893A3619F1D802C76975BE2EF88 /* GADMediatedUnifiedNativeAd.h */,
+				8AED6B5BD051D2444EFEF60DFA4C34CE /* GADMediatedUnifiedNativeAdNotificationSource.h */,
+				23E84D8760911FAEA8D7EF5872B8A30D /* GADMediationAdRequest.h */,
+				6062532EC62A7DAB97D2FCBD2E9C21B7 /* GADMediaView.h */,
+				88659D613EDC98EF83C7DBEC1A715499 /* GADMEnums.h */,
+				647F30F031AAB962424469DCE2B7C2E1 /* GADMobileAds.h */,
+				744B814AE6C616A23F7DF14DC66E5FE2 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				7BBFC2283C0818684214BB41B092CA7D /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				BDCEC592B8738B08DD9FE410946FA7D8 /* GADMultipleAdsAdLoaderOptions.h */,
+				F2A83B484AE9326EB690872502370519 /* GADNativeAd.h */,
+				B186ECABF17F38DDEFD0622360DD3E36 /* GADNativeAdDelegate.h */,
+				B95F3077766592866F53CFB7D323F303 /* GADNativeAdImage.h */,
+				28F533AF17650F64E8E1ED3585087E72 /* GADNativeAdImage+Mediation.h */,
+				14D5B032F91CD61398960D9467680B9A /* GADNativeAdImageAdLoaderOptions.h */,
+				B54120FE1421B5B2D18B4B2632CBAF58 /* GADNativeAdViewAdOptions.h */,
+				79F5D1A26BDB447C4F242F340A43C7C2 /* GADNativeAppInstallAd.h */,
+				E61D3B877BFFC7AA91665140961DCFC1 /* GADNativeAppInstallAdAssetIDs.h */,
+				213283138DCD470FA685F4D4F13D1729 /* GADNativeContentAd.h */,
+				1A8F98A6D586253532A7758DDBBE334E /* GADNativeContentAdAssetIDs.h */,
+				CA484885E9E9F4C0512B991C96A12B7F /* GADNativeCustomTemplateAd.h */,
+				F04B152A313FBB08AD888A4DB05130A5 /* GADNativeExpressAdView.h */,
+				93B8C1CA5E89A81D4EA632A5FE15D454 /* GADNativeExpressAdViewDelegate.h */,
+				573827751DAA6AA597F2AC8F1A52AB58 /* GADRequest.h */,
+				D9B1172E8C6FF66B899EEF413518B403 /* GADRequestError.h */,
+				03B881FBD2CE3E0731264A8F9EE2EC8B /* GADRewardBasedVideoAd.h */,
+				139A43B80C33395C10CEBA4E7C25D5D3 /* GADRewardBasedVideoAdDelegate.h */,
+				211697B6EC26D3D647180E756390044F /* GADSearchBannerView.h */,
+				FC9DEC926DF69E7AD7449A714DFD99B1 /* GADSearchRequest.h */,
+				188DFFE1CE10194F254420F4542158C8 /* GADUnifiedNativeAd.h */,
+				ACED156F76FC34B00EF170FF61C3216F /* GADUnifiedNativeAd+ConfirmationClick.h */,
+				982636438ADC4A8B646B42CD7AA19A66 /* GADUnifiedNativeAdAssetIdentifiers.h */,
+				974FDF9168937A6E9F4FE3D3D8003974 /* GADUnifiedNativeAdDelegate.h */,
+				46CD0AC519FD731B18C2A695D5D42F11 /* GADUnifiedNativeAdUnconfirmedClickDelegate.h */,
+				A31B8BB580D5D85128B67C173AD0A615 /* GADVideoController.h */,
+				51D72D9B07AEBA7D413C77B0FA8A4AA9 /* GADVideoControllerDelegate.h */,
+				C121979BD554C1F2C0CBF4A661626EED /* GADVideoOptions.h */,
+				CB5A6242897F80CA160D5282F7F3771F /* GoogleMobileAds.h */,
+				CA60E96A0275E56DB189E2BB5BE0292E /* GoogleMobileAdsDefines.h */,
+				521BABC9030A28F7006B41ED28918E68 /* LmMobSDK.h */,
+				CD70F5204FF4DA5E64636269C314EE9F /* MVCampaign.h */,
+				96AC5A189A041125C1D6E39B5223B631 /* MVErrorCodeConstant.h */,
+				DA086548F458EFB3F76A8562C90357D6 /* MVFrame.h */,
+				3E439E627123948388AF6B5E71EB181D /* MVMediaView.h */,
+				BD6887F8ACAF0EE5295159CE5BFC79A5 /* MVNativeAdManager.h */,
+				C1CD39824E64172B06F42DFAFF7C0811 /* MVNativeScrollView.h */,
+				36643FA0BD1870651927E988F10981DB /* MVRewardAdInfo.h */,
+				035D998965603C68F5F1C4640189F393 /* MVRewardAdManager.h */,
+				A1CA58DD29C52931F8E59992085F7326 /* MVSDK.h */,
+				31E77B6228D64253DCF383E18E50E506 /* MVTemplate.h */,
+				642E5C1FAA57C951AFC3F7600C22249C /* MVUserInfo.h */,
+				DE1128B11B982A5177C5F1B198CC3F17 /* UADSInAppPurchaseMetaData.h */,
+				56204891D82E698E599141D25A49B17B /* UADSJsonStorage.h */,
+				E98DB3CAE4DB19DD3921A574610E2CDE /* UADSMediationMetaData.h */,
+				9F62B3C32685C3F02B6FC5571EB11DC6 /* UADSMetaData.h */,
+				5EC3F6E0CE5FD1D8EA997939D46B51AA /* UADSPlayerMetaData.h */,
+				CC659EACC89DF982F6846FAC12407AB3 /* UADSPurchasing.h */,
+				78E96D231914DAEB33AFD39E8A2E9EB0 /* UnityAds.h */,
+				66BC5110ABA668DE6843C4C3519B7539 /* UnityAdsExtended.h */,
+				01C5CBFC35F9B59D978BDB7A39ECFBC6 /* VungleSDK.h */,
+				A39F5A16B9F5652B46696FBA097AB5EF /* VungleSDKCreativeTracking.h */,
+				1E9EFDA21E20CC1F3F7830CDEE84BB69 /* VungleSDKHeaderBidding.h */,
+				82EF6D622C821268FB1A868EDBEB2D6D /* Frameworks */,
+				98F47159F28232E1FD370610633DCE98 /* Resources */,
+			);
+			name = LmMobSDK;
+			path = LmMobSDK;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -233,12 +418,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9DC9D71F18F0EBCEC734CC6B9DF1028 /* Pods */ = {
+		BC86E5D6F918AEC5FD9008415EED02CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				746C897645E29C464E4D4675F2454C35 /* LmMobSDK */,
+				BD80B26EB131BEE728205E4C738C365A /* GoogleMobileAds.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD794EC62F4D69B86886E572E4EEDB2 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				BC86E5D6F918AEC5FD9008415EED02CF /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		EE517C95DA187BD2760E3A05FF303A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C5920C9FCCE4C4E9AD9BD36FBBE4F /* VungleSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
