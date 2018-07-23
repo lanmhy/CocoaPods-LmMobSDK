@@ -1,12 +1,12 @@
 PODS:
   - Google-Mobile-Ads-SDK (7.31.0)
-  - LmMobSDK (4.0.0):
+  - LmMobSDK (5.0.0):
     - Google-Mobile-Ads-SDK (~> 7.31.0)
     - VungleSDK-iOS (~> 6.2.0)
   - VungleSDK-iOS (6.2.0)
 
 DEPENDENCIES:
-  - LmMobSDK (~> 4.0.0)
+  - LmMobSDK (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,9 +16,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
-  LmMobSDK: e60094b22c76021fbadf7a085f7ef02cffd48e7d
+  LmMobSDK: ee9ae98c684bdcd2c32831670797ef6ac1fd63ee
   VungleSDK-iOS: a8665f4e826ad688135429f4618df4235f8738c7
 
-PODFILE CHECKSUM: 779879c51fe556c3f4725af2d143d2f54c5d1c06
+PODFILE CHECKSUM: f36b065a98e8d57f1ae50a94b689517d7a3ba598
 
 COCOAPODS: 1.5.3
